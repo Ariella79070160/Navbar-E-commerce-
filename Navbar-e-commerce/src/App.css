@@ -1,0 +1,26 @@
+@keyframes navbar-menu {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+  
+.animate-navbar-menu {
+    animation: navbar-menu 0.4s ease-out;
+}
+
+.z-sticky {
+    z-index: 1020;
+}
+  
+.z-fixed {
+    z-index: 1030;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+  
